@@ -30,3 +30,7 @@ conda env remove -n env_name
 ## Pip version env control
 $ env1/bin/pip freeze > requirements.txt
 $ env2/bin/pip install -r requirements.txt
+
+
+MarkDown Cheetsheets
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
