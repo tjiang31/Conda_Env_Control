@@ -18,6 +18,7 @@ conda create -n env_name list of packages
 
 ## Python version control
 conda create -n py3 python=3 package_name1 package_name2
+
 source activate my_env
 
 ## Saving and loading environments
