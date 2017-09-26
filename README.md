@@ -23,13 +23,16 @@ source activate my_env
 
 ## Saving and loading environments
 conda env export > environment.yaml
+
 conda env create -f environment.yaml
 
 conda env list
+
 conda env remove -n env_name
 
 ## Pip version env control
 $ env1/bin/pip freeze > requirements.txt
+
 $ env2/bin/pip install -r requirements.txt
 
 ## MarkDown Cheetsheets
