@@ -59,10 +59,12 @@ Running the slideshow
 To create the slideshow from the notebook file, you'll need to use nbconvert:
 
     jupyter nbconvert notebook.ipynb --to slides
+
 This just converts the notebook to the necessary files for the slideshow, but you need to serve it with an HTTP server to actually see the presentation.
 
 To convert it and immediately see it, use
 
-jupyter nbconvert notebook.ipynb --to slides --post serve
+    jupyter nbconvert notebook.ipynb --to slides --post serve
+
 This will open up the slideshow in your browser so you can present it.
 
