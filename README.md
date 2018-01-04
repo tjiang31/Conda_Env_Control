@@ -70,4 +70,6 @@ This will open up the slideshow in your browser so you can present it.
 
 # Getting Colored Output
 To get colored diff output, run 
-    git config --global color.ui auto
+
+   git config --global color.ui auto
+   
